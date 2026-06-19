@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  scroll-behavior: smooth;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+.header {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  width: 90%;
+  max-width: 700px;
+}
+
+.navbar {
+  background: rgba(201, 176, 130, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 50px;
+  border: 1px solid rgba(201, 176, 130, 0.5);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 30px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f5ead6;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background 0.3s;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background: rgba(201, 176, 130, 0.4);
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.imagem img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+.texto {
+  flex: 1;
+  min-width: 0;
+  
+}
+
+.texto h1 {
+  font-size: 2rem;
+  color: #f5ead6; 
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.texto h2 {
+  font-size: 2rem;
+  color: #f5ead6;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.texto p {
+  font-size: 1rem;
+  color: #e0d0b0;
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+#p1 {font-size: 1rem;
+  color: bege;
+  line-height: 1.8;
+  margin-bottom: 14px;}
+
+.agradecimento{
+    background: rgba(201, 176, 130, 0.25);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+figcaption {
+    color: #e0d0b0;
+    font-size: 0.85rem;
+    margin-top: 8px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+
+#origem    { background: #3b2f2f; }
+#expansao  { background: #4a3728; }
+#olimpiadas{ background: #2f3b35; }
+#brasil    { background: #3b3228; }
+#haikyuu   { background: #2b2b3b; }
+#agradecimento { background: #162516; }
